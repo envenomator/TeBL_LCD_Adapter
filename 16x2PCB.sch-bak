@@ -1,0 +1,186 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Display_Character:RC1602A U1
+U 1 1 5EB15C25
+P 5225 3150
+F 0 "U1" H 5225 4031 50  0000 C CNN
+F 1 "RC1602A" H 5225 3940 50  0000 C CNN
+F 2 "lcd1602a:WC1602A" H 5325 2350 50  0001 C CNN
+F 3 "http://www.raystar-optronics.com/down.php?ProID=18" H 5325 3050 50  0001 C CNN
+	1    5225 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x16_Female J1
+U 1 1 5EB172AB
+P 3475 3450
+F 0 "J1" H 3367 2425 50  0000 C CNN
+F 1 "Conn_01x16_Female" H 3367 2516 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" H 3475 3450 50  0001 C CNN
+F 3 "~" H 3475 3450 50  0001 C CNN
+	1    3475 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4825 2950 4075 2950
+Wire Wire Line
+	4075 2950 4075 3550
+Wire Wire Line
+	4075 3550 3675 3550
+Wire Wire Line
+	4825 3050 4000 3050
+Wire Wire Line
+	4000 3050 4000 3450
+Wire Wire Line
+	4000 3450 3675 3450
+Wire Wire Line
+	4825 3150 3925 3150
+Wire Wire Line
+	3925 3150 3925 3350
+Wire Wire Line
+	3925 3350 3675 3350
+Wire Wire Line
+	4825 3250 3675 3250
+Wire Wire Line
+	4825 3350 3950 3350
+Wire Wire Line
+	3950 3350 3950 3200
+Wire Wire Line
+	3950 3200 3875 3200
+Wire Wire Line
+	3875 3200 3875 3150
+Wire Wire Line
+	3875 3150 3675 3150
+Wire Wire Line
+	4825 3450 4100 3450
+Wire Wire Line
+	4100 3450 4100 3100
+Wire Wire Line
+	4100 3100 3950 3100
+Wire Wire Line
+	3950 3100 3950 3050
+Wire Wire Line
+	3950 3050 3675 3050
+Wire Wire Line
+	4825 3550 4125 3550
+Wire Wire Line
+	4125 3550 4125 3000
+Wire Wire Line
+	4125 3000 4000 3000
+Wire Wire Line
+	4000 3000 4000 2950
+Wire Wire Line
+	4000 2950 3675 2950
+Wire Wire Line
+	4825 3650 4175 3650
+Wire Wire Line
+	4175 3650 4175 2850
+Wire Wire Line
+	4175 2850 3675 2850
+Wire Wire Line
+	5225 3850 5225 4150
+Wire Wire Line
+	5225 4150 3675 4150
+Wire Wire Line
+	3675 2650 4650 2650
+Wire Wire Line
+	4650 2650 4650 2075
+Wire Wire Line
+	4650 2075 5800 2075
+Wire Wire Line
+	5800 2075 5800 3350
+Wire Wire Line
+	5800 3350 5625 3350
+Wire Wire Line
+	5625 3450 5725 3450
+Wire Wire Line
+	5725 3450 5725 2150
+Wire Wire Line
+	5725 2150 3975 2150
+Wire Wire Line
+	3975 2150 3975 2750
+Wire Wire Line
+	3975 2750 3675 2750
+Wire Wire Line
+	5625 2950 5875 2950
+Wire Wire Line
+	5875 2950 5875 3950
+Wire Wire Line
+	5875 3950 3675 3950
+Wire Wire Line
+	5225 2450 5450 2450
+Wire Wire Line
+	5950 2450 5950 4050
+Wire Wire Line
+	5950 4050 3675 4050
+Wire Wire Line
+	4825 2650 4825 2225
+Wire Wire Line
+	4825 2225 6050 2225
+Wire Wire Line
+	6050 2225 6050 4250
+Wire Wire Line
+	6050 4250 3800 4250
+Wire Wire Line
+	3800 4250 3800 3850
+Wire Wire Line
+	3800 3850 3675 3850
+Wire Wire Line
+	4825 2750 4275 2750
+Wire Wire Line
+	4275 2750 4275 3750
+Wire Wire Line
+	4275 3750 3675 3750
+Wire Wire Line
+	4825 2850 4375 2850
+Wire Wire Line
+	4375 2850 4375 3600
+Wire Wire Line
+	4375 3600 3900 3600
+Wire Wire Line
+	3900 3600 3900 3650
+Wire Wire Line
+	3900 3650 3675 3650
+$Comp
+L power:GND #PWR0101
+U 1 1 5EB30907
+P 3675 4425
+F 0 "#PWR0101" H 3675 4175 50  0001 C CNN
+F 1 "GND" H 3680 4252 50  0000 C CNN
+F 2 "" H 3675 4425 50  0001 C CNN
+F 3 "" H 3675 4425 50  0001 C CNN
+	1    3675 4425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3675 4150 3675 4425
+Connection ~ 3675 4150
+$Comp
+L power:VDD #PWR?
+U 1 1 5EB32510
+P 5450 2450
+F 0 "#PWR?" H 5450 2300 50  0001 C CNN
+F 1 "VDD" H 5467 2623 50  0000 C CNN
+F 2 "" H 5450 2450 50  0001 C CNN
+F 3 "" H 5450 2450 50  0001 C CNN
+	1    5450 2450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 2450
+Wire Wire Line
+	5450 2450 5950 2450
+$EndSCHEMATC

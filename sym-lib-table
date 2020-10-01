@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 16x2_lcd)(type Legacy)(uri C:/Users/jeroe/OneDrive/Source/PCB/BE6502-Build-a-65c02-computer-master/common/library/16x2_lcd.lib)(options "")(descr ""))
+  (lib (name 16x2PCB-rescue)(type Legacy)(uri ${KIPRJMOD}/16x2PCB-rescue.lib)(options "")(descr ""))
+)
